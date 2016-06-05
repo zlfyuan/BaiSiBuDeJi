@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZLFNewViewController.h
 //  百思不得姐
 //
 //  Created by zluof on 16/6/3.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZLFNewViewController : UIViewController
 
 @end
-

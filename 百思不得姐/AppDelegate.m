@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZLFTabBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    [NSThread sleepForTimeInterval:3];
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[ZLFTabBarViewController alloc]init];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
