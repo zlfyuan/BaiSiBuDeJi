@@ -102,6 +102,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F99280E1D04FB85009B5179 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7F9928181D04FE24009B5179 /* 自定义控件 */,
+				7F9928171D04FD93009B5179 /* Categroy工具 */,
+				7F9928151D04FD21009B5179 /* me 我的 */,
+				7F9928141D04FD11009B5179 /* Friends 关注 */,
+				7F9928131D04FCF3009B5179 /* New新帖 */,
+				7F99280F1D04FB96009B5179 /* Essence- 精华 */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		7F99280F1D04FB96009B5179 /* Essence- 精华 */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D29661D016F88000068D5 /* ZLFEssenceViewController.h */,
+				7F1D29671D016F88000068D5 /* ZLFEssenceViewController.m */,
+			);
+			name = "Essence- 精华";
+			sourceTree = "<group>";
+		};
+		7F9928131D04FCF3009B5179 /* New新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D29691D016F96000068D5 /* ZLFNewViewController.h */,
+				7F1D296A1D016F96000068D5 /* ZLFNewViewController.m */,
+			);
+			name = "New新帖";
+			sourceTree = "<group>";
+		};
+		7F9928141D04FD11009B5179 /* Friends 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D296C1D016FA7000068D5 /* ZLFFriendTrendsViewController.h */,
+				7F1D296D1D016FA7000068D5 /* ZLFFriendTrendsViewController.m */,
+			);
+			name = "Friends 关注";
+			sourceTree = "<group>";
+		};
+		7F9928151D04FD21009B5179 /* me 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D296F1D016FB2000068D5 /* ZLFMeViewController.h */,
+				7F1D29701D016FB2000068D5 /* ZLFMeViewController.m */,
+			);
+			name = "me 我的";
+			sourceTree = "<group>";
+		};
+		7F9928161D04FD68009B5179 /* Other 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				7FF8CCB51D0130D000329174 /* Supporting Files */,
+			);
+			name = "Other 其他";
+			sourceTree = "<group>";
+		};
+		7F9928171D04FD93009B5179 /* Categroy工具 */ = {
+			isa = PBXGroup;
+			children = (
+				7F8EB28D1D0477A9008B798C /* UIBarButtonItem+ZLFUIBarButton.h */,
+				7F8EB28E1D0477A9008B798C /* UIBarButtonItem+ZLFUIBarButton.m */,
+				7F1D60211D03C65F00F95C29 /* UIView+ZLFUIview.h */,
+				7F1D60221D03C65F00F95C29 /* UIView+ZLFUIview.m */,
+			);
+			name = "Categroy工具";
+			sourceTree = "<group>";
+		};
+		7F9928181D04FE24009B5179 /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				7F1D29721D017070000068D5 /* ZLFTabBar.h */,
+				7F1D29731D017070000068D5 /* ZLFTabBar.m */,
+			);
+			name = "自定义控件";
+			sourceTree = "<group>";
+		};
 		7FF8CCA91D0130D000329174 = {
 			isa = PBXGroup;
 			children = (
@@ -125,26 +202,13 @@
 		7FF8CCB41D0130D000329174 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				7F99280E1D04FB85009B5179 /* Class */,
 				7FF8CCB81D0130D000329174 /* AppDelegate.h */,
 				7FF8CCB91D0130D000329174 /* AppDelegate.m */,
-				7F1D29721D017070000068D5 /* ZLFTabBar.h */,
-				7F1D29731D017070000068D5 /* ZLFTabBar.m */,
-				7F8EB28D1D0477A9008B798C /* UIBarButtonItem+ZLFUIBarButton.h */,
-				7F8EB28E1D0477A9008B798C /* UIBarButtonItem+ZLFUIBarButton.m */,
-				7F1D60211D03C65F00F95C29 /* UIView+ZLFUIview.h */,
-				7F1D60221D03C65F00F95C29 /* UIView+ZLFUIview.m */,
-				7F1D60241D03CAFB00F95C29 /* PrefixHeader.pch */,
 				7F1D29601D01579F000068D5 /* ZLFTabBarViewController.h */,
 				7F1D29611D01579F000068D5 /* ZLFTabBarViewController.m */,
-				7F1D296F1D016FB2000068D5 /* ZLFMeViewController.h */,
-				7F1D29701D016FB2000068D5 /* ZLFMeViewController.m */,
-				7F1D296C1D016FA7000068D5 /* ZLFFriendTrendsViewController.h */,
-				7F1D296D1D016FA7000068D5 /* ZLFFriendTrendsViewController.m */,
-				7F1D29691D016F96000068D5 /* ZLFNewViewController.h */,
-				7F1D296A1D016F96000068D5 /* ZLFNewViewController.m */,
-				7F1D29661D016F88000068D5 /* ZLFEssenceViewController.h */,
-				7F1D29671D016F88000068D5 /* ZLFEssenceViewController.m */,
-				7FF8CCB51D0130D000329174 /* Supporting Files */,
+				7F1D60241D03CAFB00F95C29 /* PrefixHeader.pch */,
+				7F9928161D04FD68009B5179 /* Other 其他 */,
 			);
 			path = "百思不得姐";
 			sourceTree = "<group>";
