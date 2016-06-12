@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D165A7369B6BFAE909408E /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C625C105483EAC52B6C09E /* Pods______.framework */; };
 		7F1D29641D0159B9000068D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D29631D0159B9000068D5 /* Main.storyboard */; };
+		7F7B4D4A1D05C14900A2CF67 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B4D491D05C14900A2CF67 /* Foundation+Log.m */; };
+		7F7ED2B51D0651F800C37506 /* ZLFCategroyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7ED2B31D0651F800C37506 /* ZLFCategroyTableViewCell.m */; };
+		7F7ED2B61D0651F800C37506 /* ZLFCategroyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7ED2B41D0651F800C37506 /* ZLFCategroyTableViewCell.xib */; };
+		7F7ED2B91D06554300C37506 /* ZLFcateegoryMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7ED2B81D06554300C37506 /* ZLFcateegoryMode.m */; };
+		7F7FC96E1D06C100002F023C /* ZLFRecommUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7FC96C1D06C100002F023C /* ZLFRecommUserTableViewCell.m */; };
+		7F7FC96F1D06C100002F023C /* ZLFRecommUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7FC96D1D06C100002F023C /* ZLFRecommUserTableViewCell.xib */; };
 		7FB8F20D1D0578490098AE6A /* UIBarButtonItem+ZLFUIBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F1EB1D0578490098AE6A /* UIBarButtonItem+ZLFUIBarButton.m */; };
 		7FB8F20E1D0578490098AE6A /* UIView+ZLFUIview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F1ED1D0578490098AE6A /* UIView+ZLFUIview.m */; };
 		7FB8F20F1D0578490098AE6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F1EE1D0578490098AE6A /* main.m */; };
@@ -21,6 +28,9 @@
 		7FB8F21F1D0593F10098AE6A /* ZLFNavigationControlle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F21E1D0593F10098AE6A /* ZLFNavigationControlle.m */; };
 		7FB8F2221D0594350098AE6A /* ZLFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F2211D0594350098AE6A /* ZLFViewController.m */; };
 		7FB8F2241D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FB8F2231D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib */; };
+		7FD7739E1D05B71600956D7F /* ZLFRecommViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7739C1D05B71600956D7F /* ZLFRecommViewController.m */; };
+		7FD7739F1D05B71600956D7F /* ZLFRecommViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7739D1D05B71600956D7F /* ZLFRecommViewController.xib */; };
+		7FE796C11D07A0D500573BC7 /* ZLFRecommUsermode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE796C01D07A0D500573BC7 /* ZLFRecommUsermode.m */; };
 		7FF8CCC31D0130D000329174 /* _____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8CCC11D0130D000329174 /* _____.xcdatamodeld */; };
 		7FF8CCC51D0130D000329174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8CCC41D0130D000329174 /* Assets.xcassets */; };
 		7FF8CCC81D0130D000329174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8CCC61D0130D000329174 /* LaunchScreen.storyboard */; };
@@ -46,7 +56,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29C625C105483EAC52B6C09E /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		364B13ABB9CAAF5900D87240 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		540E412F68B2A2D07BF0672D /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		7F1D29631D0159B9000068D5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7F7B4D491D05C14900A2CF67 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		7F7ED2B21D0651F800C37506 /* ZLFCategroyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFCategroyTableViewCell.h; sourceTree = "<group>"; };
+		7F7ED2B31D0651F800C37506 /* ZLFCategroyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFCategroyTableViewCell.m; sourceTree = "<group>"; };
+		7F7ED2B41D0651F800C37506 /* ZLFCategroyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLFCategroyTableViewCell.xib; sourceTree = "<group>"; };
+		7F7ED2B71D06554300C37506 /* ZLFcateegoryMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFcateegoryMode.h; sourceTree = "<group>"; };
+		7F7ED2B81D06554300C37506 /* ZLFcateegoryMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFcateegoryMode.m; sourceTree = "<group>"; };
+		7F7FC96B1D06C100002F023C /* ZLFRecommUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFRecommUserTableViewCell.h; sourceTree = "<group>"; };
+		7F7FC96C1D06C100002F023C /* ZLFRecommUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFRecommUserTableViewCell.m; sourceTree = "<group>"; };
+		7F7FC96D1D06C100002F023C /* ZLFRecommUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLFRecommUserTableViewCell.xib; sourceTree = "<group>"; };
 		7FB8F1EA1D0578490098AE6A /* UIBarButtonItem+ZLFUIBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZLFUIBarButton.h"; sourceTree = "<group>"; };
 		7FB8F1EB1D0578490098AE6A /* UIBarButtonItem+ZLFUIBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZLFUIBarButton.m"; sourceTree = "<group>"; };
 		7FB8F1EC1D0578490098AE6A /* UIView+ZLFUIview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLFUIview.h"; sourceTree = "<group>"; };
@@ -72,6 +94,11 @@
 		7FB8F2201D0594350098AE6A /* ZLFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFViewController.h; sourceTree = "<group>"; };
 		7FB8F2211D0594350098AE6A /* ZLFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFViewController.m; sourceTree = "<group>"; };
 		7FB8F2231D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLFFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		7FD7739B1D05B71600956D7F /* ZLFRecommViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFRecommViewController.h; sourceTree = "<group>"; };
+		7FD7739C1D05B71600956D7F /* ZLFRecommViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFRecommViewController.m; sourceTree = "<group>"; };
+		7FD7739D1D05B71600956D7F /* ZLFRecommViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLFRecommViewController.xib; sourceTree = "<group>"; };
+		7FE796BF1D07A0D500573BC7 /* ZLFRecommUsermode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFRecommUsermode.h; sourceTree = "<group>"; };
+		7FE796C01D07A0D500573BC7 /* ZLFRecommUsermode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFRecommUsermode.m; sourceTree = "<group>"; };
 		7FF8CCB21D0130D000329174 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF8CCC21D0130D000329174 /* _____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____.xcdatamodel"; sourceTree = "<group>"; };
 		7FF8CCC41D0130D000329174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D165A7369B6BFAE909408E /* Pods______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +178,9 @@
 				7FB8F1F21D0578490098AE6A /* ZLFFriendTrendsViewController.h */,
 				7FB8F1F31D0578490098AE6A /* ZLFFriendTrendsViewController.m */,
 				7FB8F2231D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib */,
+				7FD7739B1D05B71600956D7F /* ZLFRecommViewController.h */,
+				7FD7739C1D05B71600956D7F /* ZLFRecommViewController.m */,
+				7FD7739D1D05B71600956D7F /* ZLFRecommViewController.xib */,
 			);
 			path = "关注";
 			sourceTree = "<group>";
@@ -157,6 +188,10 @@
 		7FB8F1F01D0578490098AE6A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				7F7ED2B71D06554300C37506 /* ZLFcateegoryMode.h */,
+				7F7ED2B81D06554300C37506 /* ZLFcateegoryMode.m */,
+				7FE796BF1D07A0D500573BC7 /* ZLFRecommUsermode.h */,
+				7FE796C01D07A0D500573BC7 /* ZLFRecommUsermode.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -164,6 +199,12 @@
 		7FB8F1F11D0578490098AE6A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				7F7ED2B21D0651F800C37506 /* ZLFCategroyTableViewCell.h */,
+				7F7ED2B31D0651F800C37506 /* ZLFCategroyTableViewCell.m */,
+				7F7ED2B41D0651F800C37506 /* ZLFCategroyTableViewCell.xib */,
+				7F7FC96B1D06C100002F023C /* ZLFRecommUserTableViewCell.h */,
+				7F7FC96C1D06C100002F023C /* ZLFRecommUserTableViewCell.m */,
+				7F7FC96D1D06C100002F023C /* ZLFRecommUserTableViewCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -177,6 +218,7 @@
 				7FB8F1F51D0578490098AE6A /* AppDelegate.h */,
 				7FB8F1F61D0578490098AE6A /* AppDelegate.m */,
 				7FB8F1FA1D0578490098AE6A /* PrefixHeader.pch */,
+				7F7B4D491D05C14900A2CF67 /* Foundation+Log.m */,
 			);
 			path = "其他";
 			sourceTree = "<group>";
@@ -285,6 +327,8 @@
 				7FF8CCD11D0130D000329174 /* 百思不得姐Tests */,
 				7FF8CCDC1D0130D000329174 /* 百思不得姐UITests */,
 				7FF8CCB31D0130D000329174 /* Products */,
+				E02284A886A2E2500CF8D551 /* Pods */,
+				9F1E69CD9D100DB625C1908A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -337,6 +381,23 @@
 			path = "百思不得姐UITests";
 			sourceTree = "<group>";
 		};
+		9F1E69CD9D100DB625C1908A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C625C105483EAC52B6C09E /* Pods______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E02284A886A2E2500CF8D551 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				364B13ABB9CAAF5900D87240 /* Pods-百思不得姐.debug.xcconfig */,
+				540E412F68B2A2D07BF0672D /* Pods-百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -344,9 +405,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FF8CCE21D0130D000329174 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
 			buildPhases = (
+				BD39BB608AD68D2C2C5CF9E1 /* 📦 Check Pods Manifest.lock */,
 				7FF8CCAE1D0130D000329174 /* Sources */,
 				7FF8CCAF1D0130D000329174 /* Frameworks */,
 				7FF8CCB01D0130D000329174 /* Resources */,
+				EFFCEBA86E31F499789BB919 /* 📦 Embed Pods Frameworks */,
+				7042A89BB477A5B7A603ED15 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -443,7 +507,10 @@
 			files = (
 				7F1D29641D0159B9000068D5 /* Main.storyboard in Resources */,
 				7FF8CCC81D0130D000329174 /* LaunchScreen.storyboard in Resources */,
+				7F7ED2B61D0651F800C37506 /* ZLFCategroyTableViewCell.xib in Resources */,
+				7FD7739F1D05B71600956D7F /* ZLFRecommViewController.xib in Resources */,
 				7FF8CCC51D0130D000329174 /* Assets.xcassets in Resources */,
+				7F7FC96F1D06C100002F023C /* ZLFRecommUserTableViewCell.xib in Resources */,
 				7FB8F2241D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,21 +531,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7042A89BB477A5B7A603ED15 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD39BB608AD68D2C2C5CF9E1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFFCEBA86E31F499789BB919 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FF8CCAE1D0130D000329174 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7FB8F2151D0578490098AE6A /* ZLFNewViewController.m in Sources */,
+				7FE796C11D07A0D500573BC7 /* ZLFRecommUsermode.m in Sources */,
 				7FB8F2101D0578490098AE6A /* ZLFFriendTrendsViewController.m in Sources */,
+				7F7ED2B51D0651F800C37506 /* ZLFCategroyTableViewCell.m in Sources */,
 				7FB8F20D1D0578490098AE6A /* UIBarButtonItem+ZLFUIBarButton.m in Sources */,
 				7FB8F2111D0578490098AE6A /* AppDelegate.m in Sources */,
 				7FB8F2161D0578490098AE6A /* ZLFEssenceViewController.m in Sources */,
 				7FB8F2221D0594350098AE6A /* ZLFViewController.m in Sources */,
+				7FD7739E1D05B71600956D7F /* ZLFRecommViewController.m in Sources */,
 				7FB8F20E1D0578490098AE6A /* UIView+ZLFUIview.m in Sources */,
 				7FB8F2121D0578490098AE6A /* ZLFTabBarViewController.m in Sources */,
 				7FB8F20F1D0578490098AE6A /* main.m in Sources */,
 				7FB8F2141D0578490098AE6A /* ZLFMeViewController.m in Sources */,
+				7F7FC96E1D06C100002F023C /* ZLFRecommUserTableViewCell.m in Sources */,
+				7F7B4D4A1D05C14900A2CF67 /* Foundation+Log.m in Sources */,
+				7F7ED2B91D06554300C37506 /* ZLFcateegoryMode.m in Sources */,
 				7FB8F2131D0578490098AE6A /* ZLFTabBar.m in Sources */,
 				7FF8CCC31D0130D000329174 /* _____.xcdatamodeld in Sources */,
 				7FB8F21F1D0593F10098AE6A /* ZLFNavigationControlle.m in Sources */,
@@ -610,6 +731,7 @@
 		};
 		7FF8CCE31D0130D000329174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364B13ABB9CAAF5900D87240 /* Pods-百思不得姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -623,6 +745,7 @@
 		};
 		7FF8CCE41D0130D000329174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540E412F68B2A2D07BF0672D /* Pods-百思不得姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

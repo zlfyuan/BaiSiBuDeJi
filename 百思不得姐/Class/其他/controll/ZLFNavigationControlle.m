@@ -38,10 +38,12 @@
         [back setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
         [back addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         back.sizeV = CGSizeMake(50, 30);
-        back.backgroundColor = [UIColor blueColor];
+//        back.backgroundColor = [UIColor blueColor];
         back.contentHorizontalAlignment =  UIControlContentHorizontalAlignmentLeft;
         back.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:back];
+        // 隐藏tabbar
+        viewController.hidesBottomBarWhenPushed = YES;
     }
     [super pushViewController:viewController animated:animated];
 }
