@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		10D165A7369B6BFAE909408E /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C625C105483EAC52B6C09E /* Pods______.framework */; };
 		7F1D29641D0159B9000068D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1D29631D0159B9000068D5 /* Main.storyboard */; };
+		7F6309211D0DA3E000EDE602 /* ZLFRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6309201D0DA3E000EDE602 /* ZLFRecommendController.m */; };
+		7F6309281D0DA45E00EDE602 /* ZLFRecommdTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6309261D0DA45E00EDE602 /* ZLFRecommdTagCell.m */; };
+		7F6309291D0DA45E00EDE602 /* ZLFRecommdTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F6309271D0DA45E00EDE602 /* ZLFRecommdTagCell.xib */; };
+		7F63092C1D0DAB3600EDE602 /* ZLFTagsMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F63092B1D0DAB3600EDE602 /* ZLFTagsMode.m */; };
 		7F7B4D4A1D05C14900A2CF67 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7B4D491D05C14900A2CF67 /* Foundation+Log.m */; };
 		7F7ED2B51D0651F800C37506 /* ZLFCategroyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7ED2B31D0651F800C37506 /* ZLFCategroyTableViewCell.m */; };
 		7F7ED2B61D0651F800C37506 /* ZLFCategroyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7ED2B41D0651F800C37506 /* ZLFCategroyTableViewCell.xib */; };
@@ -28,6 +32,8 @@
 		7FB8F21F1D0593F10098AE6A /* ZLFNavigationControlle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F21E1D0593F10098AE6A /* ZLFNavigationControlle.m */; };
 		7FB8F2221D0594350098AE6A /* ZLFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8F2211D0594350098AE6A /* ZLFViewController.m */; };
 		7FB8F2241D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FB8F2231D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib */; };
+		7FD2DE031D1F9E9D0050897D /* ZLFPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2DE021D1F9E9D0050897D /* ZLFPushView.m */; };
+		7FD2DE071D1F9F800050897D /* ZLFPushView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2DE061D1F9F800050897D /* ZLFPushView.xib */; };
 		7FD7739E1D05B71600956D7F /* ZLFRecommViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7739C1D05B71600956D7F /* ZLFRecommViewController.m */; };
 		7FD7739F1D05B71600956D7F /* ZLFRecommViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7739D1D05B71600956D7F /* ZLFRecommViewController.xib */; };
 		7FE796C11D07A0D500573BC7 /* ZLFRecommUsermode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE796C01D07A0D500573BC7 /* ZLFRecommUsermode.m */; };
@@ -60,6 +66,13 @@
 		364B13ABB9CAAF5900D87240 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		540E412F68B2A2D07BF0672D /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		7F1D29631D0159B9000068D5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7F63091F1D0DA3E000EDE602 /* ZLFRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFRecommendController.h; sourceTree = "<group>"; };
+		7F6309201D0DA3E000EDE602 /* ZLFRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFRecommendController.m; sourceTree = "<group>"; };
+		7F6309251D0DA45E00EDE602 /* ZLFRecommdTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFRecommdTagCell.h; sourceTree = "<group>"; };
+		7F6309261D0DA45E00EDE602 /* ZLFRecommdTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFRecommdTagCell.m; sourceTree = "<group>"; };
+		7F6309271D0DA45E00EDE602 /* ZLFRecommdTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLFRecommdTagCell.xib; sourceTree = "<group>"; };
+		7F63092A1D0DAB3600EDE602 /* ZLFTagsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFTagsMode.h; sourceTree = "<group>"; };
+		7F63092B1D0DAB3600EDE602 /* ZLFTagsMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFTagsMode.m; sourceTree = "<group>"; };
 		7F7B4D491D05C14900A2CF67 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		7F7ED2B21D0651F800C37506 /* ZLFCategroyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFCategroyTableViewCell.h; sourceTree = "<group>"; };
 		7F7ED2B31D0651F800C37506 /* ZLFCategroyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFCategroyTableViewCell.m; sourceTree = "<group>"; };
@@ -94,6 +107,9 @@
 		7FB8F2201D0594350098AE6A /* ZLFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFViewController.h; sourceTree = "<group>"; };
 		7FB8F2211D0594350098AE6A /* ZLFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFViewController.m; sourceTree = "<group>"; };
 		7FB8F2231D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLFFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		7FD2DE011D1F9E9D0050897D /* ZLFPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFPushView.h; sourceTree = "<group>"; };
+		7FD2DE021D1F9E9D0050897D /* ZLFPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFPushView.m; sourceTree = "<group>"; };
+		7FD2DE061D1F9F800050897D /* ZLFPushView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLFPushView.xib; sourceTree = "<group>"; };
 		7FD7739B1D05B71600956D7F /* ZLFRecommViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLFRecommViewController.h; sourceTree = "<group>"; };
 		7FD7739C1D05B71600956D7F /* ZLFRecommViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLFRecommViewController.m; sourceTree = "<group>"; };
 		7FD7739D1D05B71600956D7F /* ZLFRecommViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLFRecommViewController.xib; sourceTree = "<group>"; };
@@ -241,6 +257,9 @@
 			children = (
 				7FB8F1FC1D0578490098AE6A /* ZLFTabBar.h */,
 				7FB8F1FD1D0578490098AE6A /* ZLFTabBar.m */,
+				7FD2DE011D1F9E9D0050897D /* ZLFPushView.h */,
+				7FD2DE021D1F9E9D0050897D /* ZLFPushView.m */,
+				7FD2DE061D1F9F800050897D /* ZLFPushView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -302,6 +321,8 @@
 				7FB8F20A1D0578490098AE6A /* view */,
 				7FB8F20B1D0578490098AE6A /* ZLFEssenceViewController.h */,
 				7FB8F20C1D0578490098AE6A /* ZLFEssenceViewController.m */,
+				7F63091F1D0DA3E000EDE602 /* ZLFRecommendController.h */,
+				7F6309201D0DA3E000EDE602 /* ZLFRecommendController.m */,
 			);
 			path = "精华";
 			sourceTree = "<group>";
@@ -309,6 +330,8 @@
 		7FB8F2091D0578490098AE6A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				7F63092A1D0DAB3600EDE602 /* ZLFTagsMode.h */,
+				7F63092B1D0DAB3600EDE602 /* ZLFTagsMode.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -316,6 +339,9 @@
 		7FB8F20A1D0578490098AE6A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				7F6309251D0DA45E00EDE602 /* ZLFRecommdTagCell.h */,
+				7F6309261D0DA45E00EDE602 /* ZLFRecommdTagCell.m */,
+				7F6309271D0DA45E00EDE602 /* ZLFRecommdTagCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -510,6 +536,8 @@
 				7F7ED2B61D0651F800C37506 /* ZLFCategroyTableViewCell.xib in Resources */,
 				7FD7739F1D05B71600956D7F /* ZLFRecommViewController.xib in Resources */,
 				7FF8CCC51D0130D000329174 /* Assets.xcassets in Resources */,
+				7FD2DE071D1F9F800050897D /* ZLFPushView.xib in Resources */,
+				7F6309291D0DA45E00EDE602 /* ZLFRecommdTagCell.xib in Resources */,
 				7F7FC96F1D06C100002F023C /* ZLFRecommUserTableViewCell.xib in Resources */,
 				7FB8F2241D05A2CE0098AE6A /* ZLFFriendTrendsViewController.xib in Resources */,
 			);
@@ -590,17 +618,21 @@
 				7F7ED2B51D0651F800C37506 /* ZLFCategroyTableViewCell.m in Sources */,
 				7FB8F20D1D0578490098AE6A /* UIBarButtonItem+ZLFUIBarButton.m in Sources */,
 				7FB8F2111D0578490098AE6A /* AppDelegate.m in Sources */,
+				7F63092C1D0DAB3600EDE602 /* ZLFTagsMode.m in Sources */,
 				7FB8F2161D0578490098AE6A /* ZLFEssenceViewController.m in Sources */,
 				7FB8F2221D0594350098AE6A /* ZLFViewController.m in Sources */,
 				7FD7739E1D05B71600956D7F /* ZLFRecommViewController.m in Sources */,
 				7FB8F20E1D0578490098AE6A /* UIView+ZLFUIview.m in Sources */,
+				7FD2DE031D1F9E9D0050897D /* ZLFPushView.m in Sources */,
 				7FB8F2121D0578490098AE6A /* ZLFTabBarViewController.m in Sources */,
 				7FB8F20F1D0578490098AE6A /* main.m in Sources */,
+				7F6309281D0DA45E00EDE602 /* ZLFRecommdTagCell.m in Sources */,
 				7FB8F2141D0578490098AE6A /* ZLFMeViewController.m in Sources */,
 				7F7FC96E1D06C100002F023C /* ZLFRecommUserTableViewCell.m in Sources */,
 				7F7B4D4A1D05C14900A2CF67 /* Foundation+Log.m in Sources */,
 				7F7ED2B91D06554300C37506 /* ZLFcateegoryMode.m in Sources */,
 				7FB8F2131D0578490098AE6A /* ZLFTabBar.m in Sources */,
+				7F6309211D0DA3E000EDE602 /* ZLFRecommendController.m in Sources */,
 				7FF8CCC31D0130D000329174 /* _____.xcdatamodeld in Sources */,
 				7FB8F21F1D0593F10098AE6A /* ZLFNavigationControlle.m in Sources */,
 			);

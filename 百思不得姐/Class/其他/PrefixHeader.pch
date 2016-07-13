@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by zluof on 16/6/5.
+//  Copyright © 2016年 zluof. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+ZLFUIview.h"
+#import "UIBarButtonItem+ZLFUIBarButton.h"
+
+#define Color(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:1.0]
+#define ThemeColor Color(223,223,223)
+
+#ifdef DEBUG
+#define ZLFNSLog(...) NSLog(__VA_ARGS__)
+#define ZLFNSLo  ZLFNSLog(@"%s",__func__ )
+#else
+#define ZLFNSlog(...)
+#endif
+
+
+#endif

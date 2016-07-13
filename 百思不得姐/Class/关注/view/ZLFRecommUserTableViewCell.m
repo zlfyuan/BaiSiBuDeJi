@@ -22,7 +22,7 @@
     
     NSString *fans = nil;
     if (modeuser.fans_count > 10000) {
-        fans = [NSString stringWithFormat:@"%zd万人关注",modeuser.fans_count / 10000.0];
+        fans = [NSString stringWithFormat:@"%.1f万人关注",modeuser.fans_count / 10000.0];
     }else{
         fans = [NSString stringWithFormat:@"%zd人关注",modeuser.fans_count];
     }

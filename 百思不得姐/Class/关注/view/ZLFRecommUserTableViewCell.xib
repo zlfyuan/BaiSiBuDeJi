@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -29,8 +30,8 @@
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dc3-mD-2vh">
-                        <rect key="frame" x="239" y="24" width="56" height="25"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dc3-mD-2vh">
+                        <rect key="frame" x="245" y="23" width="51" height="25"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <state key="normal" title="+ 关注" backgroundImage="FollowBtnBg">
                             <color key="titleColor" red="1" green="0.20086139510000001" blue="0.21600258759999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -48,7 +49,9 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="qdE-hI-LrR" secondAttribute="trailing" id="412-ab-Hco"/>
+                    <constraint firstItem="dc3-mD-2vh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="15" id="YED-dw-2pT"/>
                     <constraint firstAttribute="bottom" secondItem="qdE-hI-LrR" secondAttribute="bottom" constant="-2" id="ZLS-7B-mdT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="dc3-mD-2vh" secondAttribute="trailing" constant="16" id="hmZ-Iw-AsZ"/>
                     <constraint firstItem="qdE-hI-LrR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="k3Q-cE-P7z"/>
                 </constraints>
             </tableViewCellContentView>
